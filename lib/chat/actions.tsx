@@ -401,8 +401,10 @@ export const getUIStateFromAIState = (aiState: Chat) => {
     .map((message, index) => ({
       id: `${aiState.chatId}-${index}`,
       display:
-        message.role === 'assistant' && !message.display ? (
-          <BotMessage content={message.content} />
+        message.role === 'assistant' ? (
+          (
+            <BotMessage content={message.content} />
+          )
         ) : message.role === 'user' ? (
           <UserMessage showAvatar>{message.content}</UserMessage>
         ) : (
