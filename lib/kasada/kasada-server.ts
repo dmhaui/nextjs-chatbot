@@ -69,7 +69,7 @@ async function getKasadaMetadata(request: NextRequest): Promise<{
   }
 
   // Set a maximum Kasada response time of 3 seconds
-  const timeout = 3000
+  const timeout = 10000
   const timeoutController = new AbortController()
   const timeoutId = setTimeout(() => timeoutController.abort(), timeout)
 
