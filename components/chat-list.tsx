@@ -20,15 +20,15 @@ export function ChatList({ messages, session, isShared }: ChatList) {
             </div>
             <div className="ml-5 flex-1 space-y-2 overflow-hidden px-1">
               <p className="text-muted-foreground leading-normal">
-                Please{' '}
+                Vui lòng{' '}
                 <Link href="/login" className="underline underline-offset-4">
-                  log in
+                  đăng nhập
                 </Link>{' '}
-                or{' '}
+                hoặc{' '}
                 <Link href="/signup" className="underline underline-offset-4">
-                  sign up
+                  đăng ký
                 </Link>{' '}
-                to save and revisit your chat history!
+                để lưu lịch sử chat!
               </p>
             </div>
           </div>
