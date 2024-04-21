@@ -23,7 +23,7 @@ export function KasadaClient() {
       ></script>
       <Script
         async={true}
-        src="..\..\app\149e9513-01fa-4fb0-aad4-566afd725d1b\2d206a39-8ed7-437e-a3be-862e0f06eea3\[[...restpath]]\route.ts"
+        src="\149e9513-01fa-4fb0-aad4-566afd725d1b\2d206a39-8ed7-437e-a3be-862e0f06eea3\[[...restpath]]\route.ts"
       ></Script>
     </>
   )
