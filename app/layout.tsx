@@ -12,8 +12,8 @@ import { KasadaClient } from '@/lib/kasada/kasada-client'
 export const metadata = {
   metadataBase: new URL(`https://${process.env.VERCEL_URL}`),
   title: {
-    default: 'Next.js Gemini Chatbot',
-    template: `%s - Next.js Gemini Chatbot`
+    default: 'Chat Gemini',
+    template: `%s - ĐM HaUI Chatbot`
   },
   description:
     'Build your own generative UI chatbot using the Vercel AI SDK and Google Gemini',
@@ -45,7 +45,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           GeistMono.variable
         )}
       >
-        <KasadaClient />
+        {/* <KasadaClient />
         <Toaster position="top-center" />
         <Providers
           attribute="class"
@@ -59,7 +59,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           </div>
           <TailwindIndicator />
         </Providers>
-        <Analytics />
+        <Analytics /> */}
       </body>
     </html>
   )
