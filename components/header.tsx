@@ -55,7 +55,7 @@ export function Header() {
           <UserOrLogin />
         </React.Suspense>
       </div>
-      <div className="flex items-center justify-end gap-2">
+      {/* <div className="flex items-center justify-end gap-2">
         <Button asChild size="sm" variant="ghost">
           <a
             target="_blank"
@@ -76,7 +76,7 @@ export function Header() {
             <span className="sm:hidden">Deploy</span>
           </a>
         </Button>
-      </div>
+      </div> */}
     </header>
   )
 }
