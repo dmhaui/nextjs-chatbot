@@ -45,7 +45,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           GeistMono.variable
         )}
       >
-        {/* <KasadaClient />
+        <KasadaClient />
         <Toaster position="top-center" />
         <Providers
           attribute="class"
@@ -59,7 +59,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           </div>
           <TailwindIndicator />
         </Providers>
-        <Analytics /> */}
+        <Analytics />
       </body>
     </html>
   )
